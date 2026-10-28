@@ -1,0 +1,25 @@
+/* Estilos das páginas de conta (login, cadastro, minha conta, diagnóstico).
+   Complementa o estilo.css do professor, que não foi alterado. */
+.nav-conta{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;align-items:center;margin-bottom:1.25rem;font-weight:600;font-size:.95rem}
+.nav-conta a{text-decoration:none;border-bottom:2px solid transparent}
+.nav-conta a:hover{border-bottom-color:var(--tinta)}
+.nav-conta .nav-ola{margin-left:auto;color:var(--suave);font-weight:400}
+
+input[type=email],input[type=password]{width:100%;font:inherit;padding:.8rem 1rem;border:2px solid var(--linha);border-radius:10px;margin-bottom:1.1rem;background:#fff}
+input[type=email]:focus,input[type=password]:focus{border-color:var(--tinta);outline:0}
+.dica{display:block;color:var(--suave);font-size:.9rem;margin:-.7rem 0 1.1rem}
+.rodape-form{margin:1.25rem 0 0;font-size:.95rem}
+.sucesso{background:#E8F5EE;border:2px solid var(--lobo);border-radius:10px;padding:.9rem 1.1rem;margin-bottom:1.25rem}
+.sucesso strong{display:block}
+.nota-conta{margin-top:1.25rem;font-size:.95rem;color:var(--suave)}
+
+.dados-conta{display:grid;grid-template-columns:max-content 1fr;gap:.3rem 1.2rem;margin:0 0 1.5rem}
+.dados-conta dt{font-weight:700}
+.dados-conta dd{margin:0}
+.tabela-rolagem{overflow-x:auto;margin-top:.5rem}
+table.historico{width:100%;border-collapse:collapse;font-size:.95rem}
+table.historico th,table.historico td{text-align:left;padding:.55rem .7rem;border-bottom:1px solid var(--linha);white-space:nowrap}
+table.historico th{font-size:.85rem;color:var(--suave)}
+table.diag td:first-child{font-weight:700;width:40%;white-space:normal}
+.ok{color:var(--lobo);font-weight:700}
+.falha{color:var(--tubarao);font-weight:700}
